@@ -46,6 +46,24 @@ typedef struct listint_s\
 } listint_t;\
 
 ```
+
+## Header File: [sort.h](./sort.h)
+
+This header file contains the function prototypes for various sorting algorithms.
+
+Function Prototypes:
+
+| Function | Source File |
+| -------- | ----------- |
+| `void swap(int *a, int *b)` | [swap.c](swap.c) |
+| `void selection_sort(int *array, size_t size)` | [selection_sort.c](selection_sort.c) |
+| `void insertion_sort(int *array, int n)` | [insertion_sort.c](insertion_sort.c) |
+| `void insertion_sort_list(listint_t **list)` | [1-insertion_sort_list.c](1-insertion_sort_list.c) |
+| `void move_node(listint_t **head, listint_t **node, listint_t *prev_node)` | [1-insertion_sort_list.c](1-insertion_sort_list.c) |
+| `void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)` | [1-insertion_sort_list.c](1-insertion_sort_list.c) |
+| ... | .... |
+
+
 ## Tasks
 
 ### [0. Bubble sort](./0-bubble_sort.c)
