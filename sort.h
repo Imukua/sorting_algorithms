@@ -12,9 +12,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /*prototypes of Function to enable printing of arrays*/
@@ -24,4 +24,4 @@ void print_array(const int *array, size_t size);
 /*Prototypes of Sorting algos prototypes*/
 void bubble_sort(int *array, size_t size);
 
-#endif 
+#endif
