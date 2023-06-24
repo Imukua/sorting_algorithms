@@ -25,17 +25,22 @@ void selection_sort(int *array, size_t size)
 	size_t i, j;
 	int min_idx;
 
+	if (array == NULL || size < 2)
+	{
+		return;
+	}
 
 	for (i = 0; i < size; i++)
 	{
-	min_idx = i;
-	for (j = i + 1; j < size; j++)
-	{
-	if (array[j] < array[i])
-	{
-	min_idx = j;
-	}
-	swap(&array[i], &array[min_idx]);
-	}
+		min_idx = i;
+		for (j = i + 1; j < size; j++)
+		{
+			if (array[j] < array[i])
+			{
+				min_idx = j;
+			}
+		swap(&array[i], &array[min_idx]);
+		print_array(array, size);
+		}
 	}
 }
