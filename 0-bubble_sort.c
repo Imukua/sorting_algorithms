@@ -2,15 +2,15 @@
 
 /**
  * swap - Swaps two intergers in an array
- * 
+ *
  * @a: first intrger
  * @b: second interger
 */
 void swap(int *a, int *b)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+	int temp = *a;
+	*a = *b;
+	*b = temp;
 }
 
 /**
@@ -21,18 +21,17 @@ void swap(int *a, int *b)
 */
 void bubble_sort(int *array, size_t size)
 {
-    size_t i, j;
+	size_t i, j;
 
-    for(i = 0; i < size-1; i++)
-    {
-        for(j = 0; j< size-1-i; j++)
-        {
-            if(array[j+1] < array[j])
-            {
-                swap(&array[j+1], &array[j]);
-                print_array(array, size);
-            }
-        }
-    }
-
+	for (i = 0; i < size - 1; i++)
+	{
+		for (j = 0; j < size - 1 - i; j++)
+		{
+			if (array[j + 1] < array[j])
+			{
+				swap(&array[j + 1], &array[j]);
+				print_array(array, size);
+			}
+		}
+	}
 }
