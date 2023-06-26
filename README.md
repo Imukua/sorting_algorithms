@@ -1,27 +1,27 @@
-# Sorting Algorithms & Big O
+# Sorting Algorithms & Big O 😮
 
 This repository contains the implementation of various sorting algorithms in the C programming language. The goal of this project is to familiarize ourselves with sorting algorithms, understand their time complexity using Big O notation, and learn how to select the best sorting algorithm for a given input.
 
-## Contents
+## Contents📚
 
-- [Bubble sort](./0-bubble_sort.c)
+- [Bubble sort](./0-bubble_sort.c) 
 - [Insertion sort](./1-insertion_sort_list.c)
 - [Selection sort](./2-selection_sort.c)
 
-## Background Context
+## Background Context 📝 
 
 This project is a part of the ALX curriculum and is meant to be done in teams of two. The project started on June 21, 2023, at 6:00 AM and must be completed by June 28, 2023, at 6:00 AM. An auto-review will be launched at the deadline.
 
-## Learning Objectives
+## Learning Objectives 📝 
 
 By the end of this project, we are expected to be able to:
 
-- Implement at least four different sorting algorithms.\
-- Explain the concept of Big O notation and evaluate the time complexity of an algorithm.\
-- Select the best sorting algorithm for a given input.\
+- Implement at least four different sorting algorithms.
+- Explain the concept of Big O notation and evaluate the time complexity of an algorithm.
+- Select the best sorting algorithm for a given input.
 - Understand the concept of stable sorting algorithms.
 
-## Resources
+## Resources 📚 
 
 In this project, we are provided with the following helper functions:
 
@@ -47,7 +47,7 @@ typedef struct listint_s\
 
 ```
 
-## Header File: [sort.h](./sort.h)
+## Header File: [sort.h](./sort.h)📁 
 
 This header file contains the function prototypes for various sorting algorithms.
 
@@ -66,19 +66,19 @@ Function Prototypes:
 
 ## Tasks
 
-### [0. Bubble sort](./0-bubble_sort.c)
+### [0. Bubble sort](./0-bubble_sort.c)🚀
 
 - Implement the `bubble_sort` function that sorts an array of integers in ascending order using the Bubble sort algorithm.\
 - Print the array after each time two elements are swapped.\
 - Write the time complexity of the Bubble sort algorithm in the best case, average case, and worst case in the `0-O` file.
 
-### [1. Insertion sort](./1-insertion_sort_list.c)
+### [1. Insertion sort](./1-insertion_sort_list.c)🚀
 
 - Implement the `insertion_sort_list` function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.\
 - Print the list after each time two elements are swapped.\
 - Write the time complexity of the Insertion sort algorithm in the best case, average case, and worst case in the `1-O` file.
 
-### [2. Selection sort](./2-selection_sort.c)
+### [2. Selection sort](./2-selection_sort.c)🚀
 
 - Implement the `selection_sort` function that sorts an array of integers in ascending order using the Selection sort algorithm.\
 - Print the array after each time two elements are swapped.\
