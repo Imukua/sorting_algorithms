@@ -7,6 +7,7 @@ This repository contains the implementation of various sorting algorithms in the
 - [Bubble sort](./0-bubble_sort.c) 
 - [Insertion sort](./1-insertion_sort_list.c)
 - [Selection sort](./2-selection_sort.c)
+- [3. Quick sort](./3-quick_sort.c)
 
 ## Background Context 📝 
 
@@ -55,12 +56,10 @@ Function Prototypes:
 
 | Function | Source File |
 | -------- | ----------- |
-| `void swap(int *a, int *b)` | [swap.c](swap.c) |
+| `void bubble_sort(int *array, size_t size)` | [Bubble sort](./0-bubble_sort.c) |
 | `void selection_sort(int *array, size_t size)` | [selection_sort.c](selection_sort.c) |
 | `void insertion_sort(int *array, int n)` | [insertion_sort.c](insertion_sort.c) |
-| `void insertion_sort_list(listint_t **list)` | [1-insertion_sort_list.c](1-insertion_sort_list.c) |
-| `void move_node(listint_t **head, listint_t **node, listint_t *prev_node)` | [1-insertion_sort_list.c](1-insertion_sort_list.c) |
-| `void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)` | [1-insertion_sort_list.c](1-insertion_sort_list.c) |
+| `void quicksort(int *array, int low, int high, size_t size)` | [3. Quick sort](./3-quick_sort.c) |
 | ... | .... |
 
 
@@ -68,21 +67,27 @@ Function Prototypes:
 
 ### [0. Bubble sort](./0-bubble_sort.c)🚀
 
-- Implement the `bubble_sort` function that sorts an array of integers in ascending order using the Bubble sort algorithm.\
-- Print the array after each time two elements are swapped.\
+- Implement the `bubble_sort` function that sorts an array of integers in ascending order using the Bubble sort algorithm.
+- Print the array after each time two elements are swapped.
 - Write the time complexity of the Bubble sort algorithm in the best case, average case, and worst case in the `0-O` file.
 
 ### [1. Insertion sort](./1-insertion_sort_list.c)🚀
 
-- Implement the `insertion_sort_list` function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.\
-- Print the list after each time two elements are swapped.\
+- Implement the `insertion_sort_list` function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.
+- Print the list after each time two elements are swapped.
 - Write the time complexity of the Insertion sort algorithm in the best case, average case, and worst case in the `1-O` file.
 
 ### [2. Selection sort](./2-selection_sort.c)🚀
 
-- Implement the `selection_sort` function that sorts an array of integers in ascending order using the Selection sort algorithm.\
-- Print the array after each time two elements are swapped.\
+- Implement the `selection_sort` function that sorts an array of integers in ascending order using the Selection sort algorithm.
+- Print the array after each time two elements are swapped.
 - Write the time complexity of the Selection sort algorithm in the best case, average case, and worst case in the `2-O` file.
+
+### [3. Quick sort](./3-quick_sort.c)🚀
+
+- Implement the quick_sort function to sort an array of integers in ascending order using the Quick sort algorithm.
+- Use the Lomuto partition scheme to determine the pivot element, which is set as the last element of the partition being sorted.
+- Display the array after each swap operation between two elements to visualize the sorting process.
 
 ---
 
