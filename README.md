@@ -19,7 +19,7 @@ By the end of this project, we are expected to be able to:
 
 - Implement at least four different sorting algorithms.
 - Explain the concept of Big O notation and evaluate the time complexity of an algorithm.
-- Select the best sorting algorithm for a given input.
+- Select the best sorting algorithm forr a given input.
 - Understand the concept of stable sorting algorithms.
 
 ## Resources 📚 
