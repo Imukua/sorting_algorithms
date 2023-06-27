@@ -29,7 +29,7 @@ In this project, we are provided with the following helper functions:
 - `print_array` - Prints an array of integers.\
 - `print_list` - Prints a doubly linked list of integers.
 
-Additionally, we are given the following data structure for the doubly linked list:
+Additionally, we were given the following data structure for the doubly linked list:
 
 ```c\
 /**\
