@@ -60,6 +60,7 @@ Function Prototypes:
 | `void selection_sort(int *array, size_t size)` | [selection_sort.c](selection_sort.c) |
 | `void insertion_sort(int *array, int n)` | [insertion_sort.c](insertion_sort.c) |
 | `void quicksort(int *array, int low, int high, size_t size)` | [3. Quick sort](./3-quick_sort.c) |
+| `void shell_sort(int *array, size_t size)` | [3. Quick sort](./100-shell_sort.c)🚀 |
 | ... | .... |
 
 
@@ -89,6 +90,11 @@ Function Prototypes:
 - Use the Lomuto partition scheme to determine the pivot element, which is set as the last element of the partition being sorted.
 - Display the array after each swap operation between two elements to visualize the sorting process.
 
+### [3. Quick sort](./100-shell_sort.c)🚀
+
+    Implement the quick_sort function to sort an array of integers in ascending order using the Quick sort algorithm.
+    Use the Lomuto partition scheme to determine the pivot element, which is set as the last element of the partition being sorted.
+    Display the array after each swap operation between two elements to visualize the sorting process.
 ---
 
 **Note:** The full code for each task can be found in their respective files mentioned in the repository.
